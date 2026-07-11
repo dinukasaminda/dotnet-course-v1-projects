@@ -1,0 +1,14 @@
+/Users/dinukabandara/devs/examples/dotnet-course-01/HelloWorld3/bin/Debug/net10.0/HelloWorld3
+/Users/dinukabandara/devs/examples/dotnet-course-01/HelloWorld3/bin/Debug/net10.0/HelloWorld3.deps.json
+/Users/dinukabandara/devs/examples/dotnet-course-01/HelloWorld3/bin/Debug/net10.0/HelloWorld3.runtimeconfig.json
+/Users/dinukabandara/devs/examples/dotnet-course-01/HelloWorld3/bin/Debug/net10.0/HelloWorld3.dll
+/Users/dinukabandara/devs/examples/dotnet-course-01/HelloWorld3/bin/Debug/net10.0/HelloWorld3.pdb
+/Users/dinukabandara/devs/examples/dotnet-course-01/HelloWorld3/obj/Debug/net10.0/HelloWorld3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dinukabandara/devs/examples/dotnet-course-01/HelloWorld3/obj/Debug/net10.0/HelloWorld3.AssemblyInfoInputs.cache
+/Users/dinukabandara/devs/examples/dotnet-course-01/HelloWorld3/obj/Debug/net10.0/HelloWorld3.AssemblyInfo.cs
+/Users/dinukabandara/devs/examples/dotnet-course-01/HelloWorld3/obj/Debug/net10.0/HelloWorld3.csproj.CoreCompileInputs.cache
+/Users/dinukabandara/devs/examples/dotnet-course-01/HelloWorld3/obj/Debug/net10.0/HelloWorld3.dll
+/Users/dinukabandara/devs/examples/dotnet-course-01/HelloWorld3/obj/Debug/net10.0/refint/HelloWorld3.dll
+/Users/dinukabandara/devs/examples/dotnet-course-01/HelloWorld3/obj/Debug/net10.0/HelloWorld3.pdb
+/Users/dinukabandara/devs/examples/dotnet-course-01/HelloWorld3/obj/Debug/net10.0/HelloWorld3.genruntimeconfig.cache
+/Users/dinukabandara/devs/examples/dotnet-course-01/HelloWorld3/obj/Debug/net10.0/ref/HelloWorld3.dll
