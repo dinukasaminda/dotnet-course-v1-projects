@@ -20,7 +20,7 @@ var nextId = todos.Max(todo => todo.Id) + 1;
 app.MapGet("/", () => Results.Ok(new
 {
     App = "TodoApiV1",
-    Message = "Todo app API using ASP.NET Core minimal APIs.",
+    Message = "Todo app API using ASP.NET wsCore minimal APIs.",
     OpenApi = "/openapi/v1.json",
     ApiReference = "/scalar/v1"
 }));
