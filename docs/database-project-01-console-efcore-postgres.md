@@ -76,6 +76,8 @@ Stop PostgreSQL and pgAdmin:
 docker compose down
 ```
 
+
+
 ## 4. Create Product model
 
 Create `Product.cs`:
@@ -92,6 +94,8 @@ public class Product
     public int Stocks { get; set; }
 }
 ```
+
+
 
 ## 5. Create DbContext
 
@@ -137,6 +141,8 @@ public class AppDbContext : DbContext
     }
 }
 ```
+
+
 
 ## 6. Add CRUD operations in Main method
 
@@ -230,11 +236,15 @@ internal class Program
 }
 ```
 
+
+
 ## 7. Run project
 
 ```bash
 dotnet run
 ```
+
+
 
 ## Project files
 
@@ -247,8 +257,11 @@ ProductConsoleDb/
   AppDbContext.cs
 ```
 
+
+
 ## Notes
 
 - `Guid` in C# becomes `uuid` in PostgreSQL.
 - `EnsureCreated()` creates the database tables for this beginner project.
 - Later projects can use migrations instead of `EnsureCreated()`.
+
