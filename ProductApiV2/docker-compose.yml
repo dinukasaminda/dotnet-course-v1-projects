@@ -1,0 +1,26 @@
+services:
+  dotnet_class_postgres_v2:
+    image: postgres:16
+    container_name: dotnet_class_product_api_postgres_v2
+    environment:
+      POSTGRES_DB: product_api_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - dotnet_class_product_api_postgres_data_v2:/var/lib/postgresql/data
+
+  dotnet_class_pgadmin_v2:
+    image: dpage/pgadmin4
+    container_name: dotnet_class_product_api_pgadmin_v2
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@dotnetclass.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+    ports:
+      - "5050:80"
+    depends_on:
+      - dotnet_class_postgres_v2
+
+volumes:
+  dotnet_class_product_api_postgres_data_v2:
